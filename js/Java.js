@@ -25,6 +25,10 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 
 }
+
+localstorage.geolocation();
+localStorage.getItem();
+localStorage.setItem();
 window.onload = function() {
 init();
 }
