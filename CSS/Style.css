@@ -75,7 +75,7 @@ text {
 }
 
 .Bioimg {
-	height: 100%;
+	height:auto;
 	Width: 50%;
     float: left;
     margin-top: 1%;
@@ -84,6 +84,7 @@ text {
     width:90%;
     height: 50%;
     object-position: bottom;
+    align-items: center;
 }
 
 .VideoTags{
@@ -92,7 +93,16 @@ text {
     align-content: center;
     position: absolute;
 }
-    
+
+.bioinfo{
+      -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+    margin-top:1%;
+      font-size: 15px;
+  font-family:'Nanum Gothic', sans-serif;
+}
+
 
 
 @-webkit-keyframes fade {
