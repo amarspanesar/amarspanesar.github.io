@@ -26,6 +26,9 @@ p2 p3 p4 p5 p6 p7{
 	color:black;
     float: right;
     display:block;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 ul {
@@ -75,16 +78,20 @@ text {
 }
 
 .Bioimg {
-	height:auto;
+	height:50%;
 	Width: 50%;
-    float: left;
+    float:left;
     margin-top: 1%;
+    margin-right: 1%;
 }
 .Tourimg{
-    width:90%;
-    height: 50%;
-    object-position: bottom;
-    align-items: center;
+    height:100%;
+	Width: 100%;
+    float:center;
+    margin-top: 1%;
+    margin-right: 1%;
+    text-align: center;
+    align-content: center;
 }
 
 .VideoTags{
@@ -92,6 +99,8 @@ text {
     margin: 0 auto;
     align-content: center;
     position: absolute;
+    align-items: center;
+    float: right;
 }
 
 .bioinfo{
@@ -99,10 +108,26 @@ text {
   -moz-column-count: 1; /* Firefox */
   column-count: 1;
     margin-top:1%;
+    margin-left:1%;
       font-size: 15px;
   font-family:'Nanum Gothic', sans-serif;
 }
+.tour{
+    webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+    padding-right:8%;
+    margin-top:1%;
+    margin-left:10%;
+    margin-right:10%;
+      font-size: 22px;
+    text-align: center;
+  font-family:'Nanum Gothic', sans-serif;
+    float:right;
+  
 
+    
+}
 
 
 @-webkit-keyframes fade {
@@ -189,32 +214,8 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 /* Styles */
 }
-ol{
-    font-family: 'Nanum Gothic', sans-serif;
-	font-style:oblique,bold;
-	font-weight: 400;
-    font-size: 20px;
-	color:black;
-    float:inherit;
-    display:inline-flex;
-    -moz-column-count: 5;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 5;
-    -webkit-column-gap: 20px;
-    column-count: 3;
-    column-gap: 20px;
-}
-li2{
-    padding-right: 5%;
-    font-family: 'Nanum Gothic', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-    font-size: 20px;
-	color:black;
-    float: right;
-    display:block;
-    
-}
+
+
 
 #Image3 {
     margin-top: 1.0%;
