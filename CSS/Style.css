@@ -177,7 +177,7 @@ and (min-width : 321px) {
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-/* Styles */
+    .VideoTags{align-content:center}
 }
 
 /* iPads (portrait and landscape) ----------- */
